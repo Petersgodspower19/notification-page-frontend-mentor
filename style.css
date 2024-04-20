@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+body{
+    background-color: hsl(210, 60%, 98%);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    margin: 50px 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px -13px rgba(0, 0, 0, .26);
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head a{
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+.notifications-head{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.notifications-head h3{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+.notifications-number{
+    background-color: hsl(219, 85%, 26%);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+    width: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
+.notifications-body{
+ margin-top: 2rem;
+}
+.notifications{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    text-align: start;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    border: none;
+    gap: 10px;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 5px;
+    color:hsl(219, 12%, 42%);
+}
+.profile-name{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.profile-name:hover, .about:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.about{
+    font-weight: 600;
+    font-size: 17px;
+}
+.dot{
+    margin-top: 12px;
+    display: block;
+    width: 5px;
+   height: 5px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+}
+.time{
+    font-weight: 400;
+    margin-top: 3px;
+}
+.avatar{
+    height: 50px;
+}
+.chess{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer;
+}
+.message{
+    background-color: white;
+    margin-top: 2rem;
+    padding: 15px;
+    border: 1px solid hsl(219, 12%, 42%);
+    font-size: 16px;
+    display: none;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment img{
+    width: 10%;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    @media(max-width:600px){
+        .container{
+            margin: 50px 20px;
+        }
+    }
+
+
+
+    @media(min-width:1024px){
+        .container{
+            margin: 100px 30%;
+        }
+    }
